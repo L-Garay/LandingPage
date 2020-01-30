@@ -1,10 +1,5 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <a href="#home">Home</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </div>
     <router-view />
   </div>
 </template>
@@ -12,6 +7,7 @@
 <style>
 #app {
   height: 100vh;
+  overflow: hidden;
 }
 
 #nav {
